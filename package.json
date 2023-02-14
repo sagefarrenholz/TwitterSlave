@@ -1,0 +1,23 @@
+{
+    "name": "twitterSlave",
+    "version": "1.0.0",
+    "main": "./src/index.js",
+    "repository": "git@github.com:sagefarrenholz/TwitterSlave.git",
+    "author": "sagefarrenholz <46610156+sagefarrenholz@users.noreply.github.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "ts-node ./src/index.ts"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "openai": "^3.1.0",
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.13.0",
+        "@typescript-eslint/eslint-plugin": "^5.52.0",
+        "@typescript-eslint/parser": "^5.52.0",
+        "eslint": "^8.34.0",
+        "typescript": "^4.9.5"
+    }
+}
